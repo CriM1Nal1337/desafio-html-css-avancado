@@ -81,6 +81,7 @@ body{
     align-items: center;
     height: 100px;
     gap: 10px;
+    padding-right: 10%;
 }
 
 .footer a{
