@@ -1,20 +1,15 @@
-@media(max-width: 375px){
-    body{
-        background: url(../images/bg-mobile.svg) no-repeat;
-        background-size: cover;
-        background-color: hsl(257, 40%, 49%);
-    }
-
+@media(max-width: 768px){
     .header{
-        height: 70px;
+        height: 120px;
+        width: 300px;
     }
 
     .header a{
-        padding: 0px 35px;
+        padding: 0;
     }
     
-    .header img{
-        width: 130px;
+    .main{
+        width: 300px;
     }
 
     .main .container{
@@ -25,6 +20,7 @@
     }
 
     .container .about{
+        width: 360px;
         display: flex;
         text-align: center;
         align-items: center;
@@ -36,16 +32,25 @@
         width: 300px;
     }
 
-    .container .about a{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .about p{
+        width: 300px;
+        font-size: 14.5px;
+    }
+
+    .about h1{
+        width: 300px;
+        font-size: 25px;
     }
 
     .footer{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        margin: 0;
+        justify-content: center;
+        width: 300px;
+    }
+}
+
+@media(max-width: 375px){
+    body{
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-color: hsl(257, 40%, 49%);
     }
 }
